@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tooldktcvku"
+version = "7.0.0"
+description = "CLI tool ho tro dang ky tin chi VKU"
+requires-python = ">=3.9"
+authors = [
+    { name = "Le Sy Bach" }
+]
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0"
+]
+
+[project.scripts]
+vku-tool = "vku_tool.cli:main"

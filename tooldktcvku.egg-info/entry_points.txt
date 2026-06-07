@@ -1,0 +1,2 @@
+[console_scripts]
+vku-tool = vku_tool.cli:main
